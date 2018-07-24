@@ -30,7 +30,7 @@ function getPrompt() {
     rl.question('hand2: ', (answer2) => { 
       console.log( rockPaperScissors(answer1, answer2) );
       getPrompt();
-    });
+    }); 
   });
 }
 
